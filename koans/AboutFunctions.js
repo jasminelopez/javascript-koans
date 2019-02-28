@@ -98,7 +98,8 @@ describe("About Functions", function() {
       
   });
 
-  it("should use function body as a string", function() {
+  // optional challenge
+  xit("should use function body as a string", function() {
     var add = new Function("a", "b", "return a + b;");
     expect(add(1, 2)).toBe(FILL_ME_IN);
      
